@@ -32,7 +32,7 @@ app.get('/', (req, res, next) => {
 })
 
 app.listen(config.port, ()=>{
-   console.log(`Server is on port no.${port}...👂`);
+   console.log(`Server is on port no.${config.port}...👂`);
 }).on('error', (err)=>{
    console.log(`Server listening error...${err}`)
 })
